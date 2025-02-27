@@ -12,15 +12,10 @@ Python
 Tkinter
 OpenWeatherMap API
 
-Installation:-
-Clone the repository:
-  git clone https://github.com/your_username/weather-app.git
-  
 Install required dependencies:-
 nginx
   pip install requests
 
-  
 How to Use:-
 Run the weather_app.py file.
 Enter the city name in the search box and click "Search".
