@@ -9,7 +9,7 @@ def get_weather():
     """Fetch weather data for the given city"""
     CityName=city_entry.get()
     #APIkey
-    api_key="0fb23a4284825b978c837143965f49a0"
+    api_key="Enter your API key"
     url=f"https://api.openweathermap.org/data/2.5/weather?q={CityName}&appid={api_key}"
     reponse=requests.get(url)
     data=reponse.json()
